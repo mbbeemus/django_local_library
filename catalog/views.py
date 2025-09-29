@@ -17,4 +17,4 @@ def index(request):
         'num_authors': num_authors,
     }
 
-    return render(request, 'index.html', context)
+    return render(request, 'index.html', context=context)
